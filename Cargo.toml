@@ -11,7 +11,7 @@ categories = ["filesystem"]
 keywords = ["binary", "file", "text"]
 
 [dependencies]
-chardet = "0.2"
+chardet = { git = "https://github.com/mrd0ll4r/rust-chardet" }
 encoding = "0.2.33"
 
 [badges]
